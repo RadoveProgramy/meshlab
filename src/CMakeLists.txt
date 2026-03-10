@@ -121,6 +121,8 @@ endif()
 ### Plugin subdirectories
 if(NOT DEFINED MESHLAB_PLUGINS) # it may be already defined in parent directory
 	set(MESHLAB_PLUGINS
+		#importovane
+		meshlabplugins/filter_mgr_projekt #kosovsky vytvaranie 3D meshu z 2D fotky
 		# IO plugins
 		meshlabplugins/io_3ds
 		meshlabplugins/io_3mf
